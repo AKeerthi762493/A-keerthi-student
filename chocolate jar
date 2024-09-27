@@ -1,0 +1,10 @@
+n=int(input())
+jars=list(map(int,input().split()))
+choc=0
+for i in jars:
+    choc+=i//3
+    if i%3!=0:
+       choc+=1
+print(choc)  
+   
+
